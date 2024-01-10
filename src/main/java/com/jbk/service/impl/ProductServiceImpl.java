@@ -53,4 +53,16 @@ ProductEntity productEntity = productDao.getProductById(productId);
 		return list;
 	}
 
+	@Override
+	public int updateProduct(ProductModel productModel) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int deleteProduct(long productId) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 }

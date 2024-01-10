@@ -8,4 +8,6 @@ public interface ProductService {
 	public int addProduct(ProductModel productModel);
 	public ProductModel getProductById(long productId);
 	public List<ProductModel> getAllProducts();
+	public int updateProduct(ProductModel  productModel);
+	public int deleteProduct(long productId);
 }
